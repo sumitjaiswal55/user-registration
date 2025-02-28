@@ -1,8 +1,44 @@
-# React + Vite
+# React User Registration App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This is a React-based User Registration App built using Bootstrap for styling. It includes authentication features like user registration and login with data stored in local storage.
 
-Currently, two official plugins are available:
+## Features
+- User Signup & Login
+- Protected Routes (Users must log in to access certain pages)
+- Responsive UI with Bootstrap
+- Local Storage for User Data
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation & Setup
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/sumitjaiswal55/user-registration.git
+   ```
+2. Navigate to the project folder:
+   ```sh
+   cd user-registration
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm start
+   ```
+
+## Build & Deployment
+To, run:
+```sh
+npm run dev
+```
+
+## Technologies Used
+- React.js
+- Bootstrap
+- Local Storage
+
+## Author
+Sumit Jaiswal
+
+---
