@@ -43,20 +43,6 @@ const Home = () => {
         <p>No user data found. Please login.</p>
       )}
 
-      <button
-        onClick={() => {
-          localStorage.removeItem("user");
-          setUserData(null);
-        }}
-        className="btn-gradient btn w-100 py-2 rounded-pill mb-2 "
-          style={{
-            background: "linear-gradient(135deg,rgb(26, 0, 78), #8E2DE2)", 
-            border: "none",
-            color: "white"
-          }}
-      >
-        Logout
-      </button>
     </div>
   );
 };
